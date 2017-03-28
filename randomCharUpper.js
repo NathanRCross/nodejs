@@ -3,7 +3,7 @@
 // save file as randomInCreate.js
 // to run type "node randomInCreate.js"
 var randomInteger = function(val) {
-	var ival = Math.random()*26+97;
+	var ival = Math.random()*26+65;
 	//console.log(ival);
 	ival = Math.floor(ival);
 	return ival;
